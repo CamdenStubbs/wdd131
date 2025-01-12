@@ -1,0 +1,54 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    font-family: 'Times New Roman';
+    font-size: 20px;
+}
+
+#content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-top: 75px;
+    letter-spacing: .2rem;
+}
+
+#page-title {
+    font-size: 2em;
+}
+
+#university-subtitle {
+    font-size: .9em;
+    color: #006EB6;
+}
+
+#accent-line {
+    background-color: lightgray;
+    height: 0.5px;
+    margin-top: -15px;
+    margin-bottom: 50px;
+}
+
+#mission-statement {
+    line-height: 1.5em;
+}
+
+#list-start {
+    font-style: italic;
+}
+
+.statement-list {
+    margin-bottom: 25px;
+}
+
+#byui-logo {
+    height: 85px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
