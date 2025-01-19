@@ -6,9 +6,24 @@ body {
     font-size: 20px;
 }
 
+.dark {
+    background-color: #333;
+    color: white;
+}
+
 #content {
     max-width: 600px;
     margin: 0 auto;
+    border-width: 1px;
+    border-style: solid;
+    border-color: black;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-bottom: 75px;
+}
+
+.dark #content {
+    border-color: white;
 }
 
 header {
@@ -24,6 +39,11 @@ header {
 #university-subtitle {
     font-size: .9em;
     color: #006EB6;
+}
+
+.dark #university-subtitle {
+    font-size: .9em;
+    color: #A0D4ED;
 }
 
 #accent-line {
