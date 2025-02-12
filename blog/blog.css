@@ -147,7 +147,6 @@ footer {
 .skiptocontent {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 1/2;
 }
 
 .skiptocontent a{
@@ -158,4 +157,5 @@ footer {
 .skiptocontent a:focus {
     position: static;
     margin-top: 50px;
+    grid-column: 1/2;
 }
