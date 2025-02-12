@@ -157,6 +157,5 @@ footer {
 
 .skiptocontent a:focus {
     position: static;
-    grid-column: 1/2;
     margin-top: 50px;
 }
