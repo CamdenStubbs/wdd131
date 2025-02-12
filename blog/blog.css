@@ -1,0 +1,135 @@
+body {
+    margin: auto 0;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+a {
+    border-style: solid;
+    padding: 25px;
+    background-color: #CCFFDE;
+    border-color: black;
+    font-size: 1.5em;
+    text-decoration: none;
+    color: black;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 0.5fr 0.5fr;
+    margin-bottom: 100px;
+}
+
+#filter {
+    grid-column: 1/2;
+    grid-row: 1/7;
+    margin-left: 100px;
+    background-color: #CCFFDE;
+    border-style: solid;
+    width: 60%;
+}
+
+#filter h2 {
+    margin-left: 20px;
+}
+
+#background {
+    grid-column: 1/2;
+    width: 50%;
+    background-color: #FACDEE;
+    grid-row: 1/7;
+    margin-left: 100px;
+    border-style: solid;
+
+}
+
+.book {
+    grid-column: 2/3;
+    text-align: center;
+    grid-row: 1/6;
+}
+
+.reviewee {
+    grid-column: 3/4;
+    grid-row: 3/4;
+    background-color: #FACDEE;
+    margin-bottom: 5px;
+    margin-top: -100px;
+    padding-left: 10px;
+    margin-left: -50px;
+    width: 70%;
+    height: 50%;
+    border-radius: 5px;
+    border-style: solid;
+    border-color: #6D385E;
+    position: relative;
+    
+}
+
+.review-box {
+    grid-column: 3/4;
+    grid-row: 4/5;
+    background-color: #E1FFCC;
+    padding: 5px;
+    border-radius: 5px;
+    border-color: #408056;
+    border-style: solid;
+    text-align: center;
+    margin-left: -50px;
+
+}
+
+.overall-rating {
+    grid-column: 2/4;
+    grid-row: 6/7;
+    border-radius: 5px;
+    border-color: #408056;
+    border-style: solid;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    width: 80%;
+    justify-self: right;
+    background-color: #E1FFCC;
+    color: #000000;
+    font-size: 1.1em;
+}
+
+.overall-rating h2 {
+    padding-bottom: 30px;
+}
+
+.book-review-background {
+    grid-column: 1/5;
+    margin-left: 100px;
+    grid-row: 1/7;
+    z-index: -10;
+    background-color: #EFFFED;
+    border-style: dashed;
+    border-color: #408056;
+    width: 85%;
+}
+
+h1, h2, h3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 1.2em;
+    margin-bottom: -10px;
+}
+
+h3 {
+    color: #A73830;
+    font-size: 1.5em;
+}
