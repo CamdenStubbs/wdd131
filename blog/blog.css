@@ -1,5 +1,7 @@
 body {
     margin: auto 0;
+    min-width: 1600px;
+    max-width: 1600px;
 }
 
 header {
@@ -132,4 +134,12 @@ h2 {
 h3 {
     color: #A73830;
     font-size: 1.5em;
+}
+
+footer {
+    text-align: center;
+    background-color: #CCFFDE;
+    padding: 50px;
+    border-color: #000000;
+    border-style: solid;
 }
